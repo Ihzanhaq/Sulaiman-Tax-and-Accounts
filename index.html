@@ -1,222 +1,389 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth;">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sulaiman Haneefa</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="https://scontent.ftrv2-1.fna.fbcdn.net/v/t1.6435-9/36187947_2096087863752995_1617848222590435328_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=slafGhL2TTUAX-PrNBg&_nc_ht=scontent.ftrv2-1.fna&oh=00_AT9kEHEkxIdqTmIPFJic-PzS_5OTzp-LcDKqD30rVMLHXQ&oe=6327C8EF" type="image/gif" sizes="16x16">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Sulaiman Haneefa - Tax & Accounts Consultant</title>
+    <meta name="description" content="Professional Tax and Accounts Consulting Services - GST, Income Tax, Audit, and more">
     
+    <!-- Favicon -->
+    <link rel="icon" href="https://scontent.ftrv2-1.fna.fbcdn.net/v/t1.6435-9/36187947_2096087863752995_1617848222590435328_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=slafGhL2TTUAX-PrNBg&_nc_ht=scontent.ftrv2-1.fna&oh=00_AT9kEHEkxIdqTmIPFJic-PzS_5OTzp-LcDKqD30rVMLHXQ&oe=6327C8EF" type="image/gif" sizes="16x16">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/cce935530e.js" crossorigin="anonymous"></script>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="fixed-top"><header class="bg-success">
-        <div class="row text-white">
-            <div class="col-md-4 col-8 p-3 ps-4">
-                <h2>Sulaiman Muhammed Haneefa</h2>
-            </div>
-            <div class="col-md-8 col-3 my-auto pe-5">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <button class="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto ms-auto">
-                         <li class="nav-item active">
-                           <a class="nav-link text-white" href="#home"><h5>Home</h5> <span class="sr-only"></span></a>
-                         </li>
-                         <li class="nav-item">
-                           <a class="nav-link text-white" href="#services"><h5>Services</h5></a>
-                         </li>
-                         <li class="nav-item">
-                             <a class="nav-link text-white" href="#experience"><h5>Experience</h5></a>
-                         </li>
-                         <li class="nav-item">
-                             <a class="nav-link text-white" href="#contact"><h5>Contact Me</h5></a>
-                         </li>
-                      </ul>    
-                    </div>
-                </nav>
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#home" class="logo">
+                    <div class="logo-icon">S</div>
+                    <span class="logo-text">SULAIMAN HANEEFA</span>
+                </a>
+                
+                <a href="https://wa.me/919995153191?text=Hi%20Sulaiman,%20I%20would%20like%20to%20book%20a%20call%20with%20you" class="btn-pill" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Book a call
+                </a>
+                
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
         </div>
-    </header></div>
-  
-<section class=" pt-5 bg-light " id="home">
-    <div class="container">
-        <div class="row  mt-5 pt-4 pb-3">
-            <div class="col-md-6 col-12">
-                <img class="rounded-circle" src="WhatsApp Image 2022-03-30 at 8.39.06 PM.jpeg" alt="">
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="container">
+            <div class="bento-grid">
+                <!-- Main Content -->
+                <div class="bento-main" data-aos="fade-right">
+                    <div class="bento-card" style="height: 100%; display: flex; flex-direction: column; justify-content: center;">
+                        <span class="status-badge">
+                            <span class="status-dot"></span>
+                            AVAILABLE FOR WORK
+                        </span>
+                        
+                        <h1 class="hero-title">
+                            Hi, I'm a<br>
+                            Tax &<br>
+                            Accounts<br>
+                            Consultant<span style="color: var(--accent);">.</span>
+                        </h1>
+                        
+                        <p class="hero-subtitle">
+                            I have extensive experience working on taxation, accounting, and financial services for businesses and individuals.
+                        </p>
+                        
+                        <a href="#contact" class="btn-pill btn-outline" style="width: fit-content;">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Right Column -->
+                <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                    <!-- Profile Card -->
+                    <div class="bento-card profile-card" data-aos="fade-left" data-aos-delay="100">
+                        <div class="profile-header">
+                            <img src="WhatsApp Image 2022-03-30 at 8.39.06 PM.jpeg" alt="Sulaiman" class="profile-image">
+                            <div class="profile-info">
+                                <h3>Sulaiman Haneefa</h3>
+                                <p><i class="fas fa-map-marker-alt"></i> Kerala, India</p>
+                                <span class="profile-badge">
+                                    <i class="fas fa-star"></i> TAX EXPERT
+                                </span>
+                            </div>
+                        </div>
+                        <div class="profile-rate">
+                            <i class="fas fa-briefcase"></i> 20+ Years Experience
+                        </div>
+                    </div>
+                    
+                    <!-- Social Card -->
+                    <div class="bento-card social-card" data-aos="fade-left" data-aos-delay="200">
+                        <a href="https://wa.me/919995153191" class="social-icon whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.facebook.com/sulaiman.haneefa" class="social-icon facebook" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://in.linkedin.com/in/sulaiman-mohammed-b24628167" class="social-icon linkedin" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="tel:+919995153191" class="social-icon">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="mailto:sulaimanvzm@gmail.com" class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    
+                    <!-- Contact Cards -->
+                    <div class="bento-card" data-aos="fade-left" data-aos-delay="300">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <p>Call me at</p>
+                                <a href="tel:+919995153191">+91-9995153191</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 col-12 pt-5 ps-5"><h4 class=""><i class="fa-solid fa-phone"></i> :+91-9995153191 <br><br><i class="fa-solid fa-envelope"></i> :sulaimanvzm@gmail.com </div>
+        </div>
+    </section>
 
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>How Can I Assist You?</h2>
+                <p>Comprehensive range of tax, accounting, and financial services tailored to your needs</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Tax Consulting</h3>
+                    <p>Expert guidance on tax planning and compliance strategies</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="service-icon">
+                        <i class="fas fa-file-invoice"></i>
+                    </div>
+                    <h3>GST Registration</h3>
+                    <p>Hassle-free GST registration and compliance services</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>E Return Filing</h3>
+                    <p>Quick and accurate electronic return filing services</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Income Tax Filing</h3>
+                    <p>Complete income tax filing and consulting services</p>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="service-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Appeals & Guidance</h3>
+                    <p>Professional support for tax appeals and legal guidance</p>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Software Setup</h3>
+                    <p>Accounts software installation, configuration & training</p>
+                </div>
+                
+                <!-- Service 7 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Bank Loan Projects</h3>
+                    <p>Comprehensive project reports for bank loan applications</p>
+                </div>
+                
+                <!-- Service 8 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="service-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Finalization & Audit</h3>
+                    <p>Complete accounts finalization and audit services</p>
+                </div>
+                
+                <!-- Service 9 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <h3>PAN Card Services</h3>
+                    <p>New PAN application, corrections, and related services</p>
+                </div>
+                
+                <!-- Service 10 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Parivahan Services</h3>
+                    <p>Vehicle registration and transport-related services</p>
+                </div>
+                
+                <!-- Service 11 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>KSMART Services</h3>
+                    <p>Kerala government online services and documentation</p>
+                </div>
+                
+                <!-- Service 12 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Partnership Docs</h3>
+                    <p>Legal documentation for partnerships & co-operatives</p>
+                </div>
+                
+                <!-- Service 13 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-search-dollar"></i>
+                    </div>
+                    <h3>Internal Audit</h3>
+                    <p>Comprehensive internal audit and compliance review</p>
+                </div>
+                
+                <!-- Service 14 -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="service-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Taxation Tuition</h3>
+                    <p>Professional training for degree and PG students</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </div>
-</section>
-<section class="bg-info pt-5 pb-5" id="services">
-  <div class="container">
-      <h1 class="text-center pb-3">Services</h1>
-      <div class="row">
-          <div class="col-md-4 col-12 pt-3">
-              <div class="card text-center p-3" style="height: 15em;" >
-                  
-                  <i class="fa-solid fa-calculator display-1 pt-5"></i>
-                  <div class="card-body">
-                    <h5 class="card-title pt-4">Tax Consulting</h5>
-                    <p class="card-text"></p>
-                  </div>
-                  
-              </div>
-              
-              
-          </div>
-          <div class="col-md-4 col-12 pt-3">
-              <div class="card text-center p-3" style="height: 15em;">
-                  
-                  <i class="fa-solid fa-user-tie display-1 pt-5"></i>
-                  <div class="card-body">
-                    <h5 class="card-title pt-4">GST Services</h5>
-                    <p class="card-text"></p>
-                  </div>
-                  
-              </div>
-              
-              
-          </div>
-          <div class="col-md-4 col-12 pt-3">
-              <div class="card text-center p-3"style="height: 15em;">
-                  
-                  <i class="fa-solid fa-desktop display-1 pt-5"></i>
-                  <div class="card-body">
-                    <h5 class="card-title pt-4">Accounts Software Setup</h5>
-                    <p class="card-text"></p>
-                  </div>
-                  
-              </div>
-          </div>    
-      </div>        
-          
-      <div class="row pt-3">
-              <div class="col-md-4 col-12 pt-3">
-              <div class="card text-center p-3" style="height: 15em;">
-                  
-                  <i class="fa-solid fa-file display-1 pt-3"></i>
-                  <div class="card-body">
-                    <h5 class="card-title pt-4">Loan Project Work</h5>
-                    <p class="card-text"></p>
-                  </div>
-                  
-              </div>
-              
-              
-          </div>
-          <div class="col-md-4 col-12 pt-3 ">
-              <div class="card text-center p-3" style="height: 15em;">
-                  
-                  <i class="fa-solid fa-book-open-reader display-1 pt-3" ></i>
-                  <div class="card-body">
-                    <h5 class="card-title pt-4">Tutions and Training for Accounts and Taxation</h5>
-                    <p class="card-text"></p>
-                  </div>
-                  
-              </div>
-              
-              
-          </div>
-          <div class="col-md-4 col-12 p-3">
-              <div class="card text-center p-3" style="height: 15em;">
-                  
-                  <i class="fa-solid fa-handshake display-1 pt-3"></i>
-                  <div class="card-body">
-                    <h5 class="card-title pt-4">Audit Service</h5>
-                    <p class="card-text"></p>
-                  </div>
-                  
-              </div>
-              
-              
-          </div>
-      </div>    
-      
-  </div>
-</section>
-<section class="bg-light pt-5 pb-5" id="experience">
-  <div class="container">
-      <h1 class="text-center">Experiences</h1>
-      <div class="row">
-          <div class="col-md-4 col-12 pt-3">
-              <div class="card text-center p-3" style="height: 15em;">
-                  
-                  
-                  <div class="card-body">
-                    <h5 class="card-title ">MAPLIN MIDDLE EAST GROUP ABUDHABI</h5>
-                    <p class="card-text"><h5>Accounts Manager</h5></p>
-                  </div>
-                  
-              </div>
-              
-              
-          </div>
-          <div class="col-md-4 col-12 pt-3">
-              <div class="card text-center p-3"style="height: 15em;">
-                  
-                  
-                  <div class="card-body">
-                    <h5 class="card-title">AL QATARA GROUP -MUSSAFA ABUDHABI</h5>
-                    <p class="card-text"><h5>Cheif Accountant</h5></p>
-                  </div>
-                  
-              </div>
-              
-              
-          </div>
-          <div class="col-md-4 col-12 pt-3">
-              <div class="card text-center p-3 "style="height: 15em;">
-                  
-                  
-                  <div class="card-body ">
-                    <h5 class="card-title">HAFSAR TRADING COMPANY</h5>
-                    <p class="card-text"><h5>Accounts Manager</h5></p>
-                  </div>
-                  
-              </div>
-          </div>    
-      </div>        
-          
-         
-      
-  </div>
-</section>
-<section class="bg-info pb-5" id="contact">
-  <div class="container">
-      <h1 class="text-center pt-5">Contact Me</h1>
-      <div class="my-auto">
-          <ul class="list-group list-group-horizontal justify-content-center">
-              <li class="list-group-item"><a href="https://wa.me/919995153191"><i class="fa-brands fa-square-whatsapp display-6" style="color: rgb(44, 218, 44);"></i></a></li>
-              <li class="list-group-item"><a href="https://www.facebook.com/sulaiman.haneefa"><i class="fa-brands fa-facebook text-center display-6 "></a></i></li>
-              <li class="list-group-item"><a href="https://in.linkedin.com/in/sulaiman-mohammed-b24628167"><i class="fa-brands fa-linkedin display-6"></i></a></li>
-            </ul>
-      </div>
-      
-      
-          
-          
-      
-      
-  </div>
-  
-</section>
-<footer class="bg-primary">
-  <p class="text-white text-center p-3">@Copyrights</p>
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="experience-header" data-aos="fade-up">
+                <h2>Wanna see my experience?</h2>
+                <a href="https://wa.me/919995153191?text=Hi%20Sulaiman,%20I%20would%20like%20to%20book%20a%20call%20with%20you" class="btn-pill btn-outline" target="_blank">Book a call</a>
+            </div>
+            
+            <div class="experience-grid">
+                <!-- Experience 1 -->
+                <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+                    <p class="company">MAPLIN MIDDLE EAST GROUP</p>
+                    <h3>Accounts Manager</h3>
+                    <p class="role">Abu Dhabi, UAE</p>
+                    <p class="description" style="color: var(--text-secondary); font-size: 0.8rem; margin-top: 0.5rem;">Managed comprehensive accounting operations and financial reporting</p>
+                </div>
+                
+                <!-- Experience 2 -->
+                <div class="experience-card" data-aos="fade-up" data-aos-delay="200">
+                    <p class="company">AL QATARA GROUP</p>
+                    <h3>Chief Accountant</h3>
+                    <p class="role">Mussafa, Abu Dhabi</p>
+                    <p class="description" style="color: var(--text-secondary); font-size: 0.8rem; margin-top: 0.5rem;">Led accounting team and ensured financial accuracy</p>
+                </div>
+                
+                <!-- Experience 3 -->
+                <div class="experience-card" data-aos="fade-up" data-aos-delay="300">
+                    <p class="company">HAFSAR TRADING COMPANY</p>
+                    <h3>Accounts Manager</h3>
+                    <p class="role">Trading Sector</p>
+                    <p class="description" style="color: var(--text-secondary); font-size: 0.8rem; margin-top: 0.5rem;">Oversaw all accounting functions and management</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</footer>
-    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-section" data-aos="fade-up">
+                <h2>Let's connect<br>and work together</h2>
+                <p>Ready to work with a professional? Reach out today!</p>
+                
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 0.75rem; margin-bottom: 2rem;">
+                    <a href="mailto:sulaimanvzm@gmail.com" class="contact-email" style="margin-bottom: 0;">
+                        <i class="fas fa-envelope"></i> sulaimanvzm@gmail.com
+                    </a>
+                    <a href="tel:+919995153191" class="contact-email" style="margin-bottom: 0;">
+                        <i class="fas fa-phone"></i> +91-9995153191
+                    </a>
+                </div>
+                
+                <div class="contact-socials">
+                    <a href="https://wa.me/919995153191" class="social-icon whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.facebook.com/sulaiman.haneefa" class="social-icon facebook" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://in.linkedin.com/in/sulaiman-mohammed-b24628167" class="social-icon linkedin" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/cce935530e.js" crossorigin="anonymous"></script> 
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">S</div>
+                <span class="logo-text">SULAIMAN HANEEFA</span>
+            </a>
+            <p>&copy; 2025 Sulaiman Muhammed Haneefa. All Rights Reserved.</p>
+        </div>
+    </footer>
 
+    <!-- JavaScript -->
+    <script>
+        // AOS-like animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('aos-animate');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('[data-aos]').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Mobile menu
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const header = document.querySelector('header');
+        
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offset = 80;
+                    const position = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                    window.scrollTo({ top: position, behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
+            } else {
+                header.style.boxShadow = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
